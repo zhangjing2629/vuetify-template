@@ -1,0 +1,26 @@
+{
+    "useConfigFiles": true,
+    "cssPreprocessor": "less",
+    "plugins": {
+        "@vue/cli-plugin-babel": {
+            "version": "^3.0.0"
+        },
+        "@vue/cli-plugin-eslint": {
+            "version": "^3.0.0",
+            "config": "recommended",
+            "lintOn": [
+                "save",
+                "commit"
+            ]
+        }
+    },
+    "configs": {
+        "vue": {           
+        },
+        "postcss": {},
+        "eslintConfig": {}
+    },
+    "router": true,
+    "vuex": false,
+    "routerHistoryMode": false
+}
