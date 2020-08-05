@@ -4,14 +4,6 @@
     "plugins": {
         "@vue/cli-plugin-babel": {
             "version": "^3.0.0"
-        },
-        "@vue/cli-plugin-eslint": {
-            "version": "^3.0.0",
-            "config": "recommended",
-            "lintOn": [
-                "save",
-                "commit"
-            ]
         }
     },
     "configs": {
@@ -21,6 +13,6 @@
         "eslintConfig": {}
     },
     "router": true,
-    "vuex": false,
+    "vuex": true,
     "routerHistoryMode": false
 }
