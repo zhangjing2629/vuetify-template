@@ -1,11 +1,11 @@
 {
-  "name": "vue-cli-plugin-sdh",
+  "name": "vuetify-template",
   "version": "1.0.0",
-  "description": "vue-cli-plugin",
+  "description": "vue-cli-preset",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "7克",
+  "author": "zhangjing2629",
   "license": "ISC"
 }
