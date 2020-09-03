@@ -61,13 +61,7 @@ export default {
       {
         icon: 'mdi-view-dashboard',
         title: 'home',
-        children: [
-          {
-            icon: 'mdi-view-dashboard',
-            title: 'sub',
-            to: '../../',
-          }
-        ]
+        to: '/',
       },
       {
         icon: 'mdi-account',

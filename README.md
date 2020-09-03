@@ -4,6 +4,6 @@
 ## 使用方法
 
 ```
-vue create --preset s249359986/vue-cli-plugin-sdh my-project
+vue create --preset zhangjing2629/vuetify-template my-project
 
 ```
