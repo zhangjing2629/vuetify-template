@@ -13,7 +13,6 @@ module.exports = (api, options, rootOptions) => {
             "serve": "vue-cli-service serve",
             "build": "vue-cli-service build",
             "lint": "vue-cli-service lint",
-            "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
             "now-start": "vue-cli-service serve",
             "test:e2e": "vue-cli-service test:e2e",
             "test:unit": "vue-cli-service test:unit"
@@ -36,7 +35,6 @@ module.exports = (api, options, rootOptions) => {
             "sass-loader": "^8.0.0",
             "vee-validate": "^3.2.2",
             "vue-chartist": "^2.2.1",
-            "vue-cli-plugin-i18n": "^0.6.0",
             "vue-cli-plugin-vuetify": "^2.0.3",
             "vue-template-compiler": "^2.6.11",
             "vue-world-map": "^0.1.1",
@@ -45,7 +43,6 @@ module.exports = (api, options, rootOptions) => {
         dependencies: {
             "core-js": "^3.6.2",
             "vue": "^2.6.11",
-            "vue-i18n": "^8.15.3",
             "vue-router": "^3.1.3",
             "vuetify": "^2.3.6",
             "vuex": "^3.1.2"
