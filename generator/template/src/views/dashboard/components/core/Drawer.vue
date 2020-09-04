@@ -112,7 +112,7 @@ export default {
     profile() {
       return {
         avatar: true,
-        title: this.$t('avatar'),
+        title: 'avatar',
       }
     },
   },
@@ -122,7 +122,7 @@ export default {
       return {
         ...item,
         children: item.children ? item.children.map(this.mapItem) : undefined,
-        title: this.$t(item.title),
+        title: item.title,
       }
     },
   },

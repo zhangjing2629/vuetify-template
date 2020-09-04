@@ -398,12 +398,10 @@
 
     created () {
       this.$vuetify.rtl = true
-      this.$i18n.locale = 'ar'
     },
 
     beforeDestroy () {
       this.$vuetify.rtl = false
-      this.$i18n.locale = 'en'
     },
   }
 </script>
